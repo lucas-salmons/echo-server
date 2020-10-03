@@ -74,7 +74,7 @@ def server(log_buffer=sys.stderr):
                 # TODO: When the inner loop exits, this 'finally' clause will
                 #       be hit. Use that opportunity to close the socket you
                 #       created above when a client connected.
-                conn.close()
+                sock.close()
                 print(
                     'echo complete, client connection closed', file=log_buffer
                 )
