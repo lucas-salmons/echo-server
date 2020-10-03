@@ -48,4 +48,6 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
+#python
 venv/
+__pycache__/
